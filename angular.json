@@ -89,6 +89,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy":{
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/zoufisha786/CICD.git",
+            "branch": "gh-pages",
+            "dir": "dist/cicd/browser"          
+          }
         }
       }
     }

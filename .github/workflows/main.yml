@@ -33,6 +33,6 @@ jobs:
 
       # Step 5: Build the Angular App
       - name: Build Angular App
-        run: ng build 
+        run: ng build  
 
 
